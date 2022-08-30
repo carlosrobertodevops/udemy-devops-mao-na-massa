@@ -4,7 +4,6 @@
 
   user: vagrant
   become: yes
-
   vars:
     - dbhost: "db01"
     - dbname: "notes"
