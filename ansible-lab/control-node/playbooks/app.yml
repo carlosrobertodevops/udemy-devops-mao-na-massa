@@ -15,13 +15,13 @@
         name: app
         comment: Usuario de aplicação
         uid: 500
-    - name: Instalação do Maven
-      yum:
-        name: maven
-        state: latest
     - name: Instalação do Java
       yum:
-        name: java-1.8.0-openjdk
+        name: java-11
+        state: latest
+    - name: Instalação do Maven
+      yum:
+        name: maven-3.8.6
         state: latest
     - name: Criação do diretório de app
       file:
