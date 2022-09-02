@@ -3,4 +3,4 @@ cat << EOT >> /home/vagrant/.ssh/authorized_keys
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCpYaXXVFT+2l1ioFf7boUi8BmIopvca6+R30l4sX+fmL+clUuGGXbCYCUzU7h5fSShfJNmPh6IYCIHTioNfPgP+yZzml6fAqcNOm6kHrSoXtNLdwYr5c16bVajeG1x0+C+2L7C41U7Q5SBt/sazcyaaGHu3tkVKWrp6r7Eah30ttxQTRFdf+Z9PEKWXh5PrRRS98RQWZPkCQWSXGQ9SlilahB7nfezsH/XWvTiuNIarQvi3PDMHZ79llpV5mIThz0JwT4j6LlN7dMMrAjIYBUPJywGDwfMEA2CyR/Uct+ARDEmrC1xDtIAyUdjMSwQs+Sx45NP45eBFkzlPh7M5bSr vagrant@control-node
 EOT
 
-yum install -y java-1.11.0-openjdk-devel
+# sudo yum install java-11-openjdk-devel
