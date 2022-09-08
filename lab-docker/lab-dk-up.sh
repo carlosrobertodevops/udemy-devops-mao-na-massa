@@ -1,3 +1,4 @@
 #/bin/zsh
-echo '1. INICIANDO => DOCKER LAB ...'
+echo 'INICIANDO => lab-docker ...'
+
 vagrant up --provision
